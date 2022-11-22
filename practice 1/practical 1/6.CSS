@@ -1,0 +1,15 @@
+/*a:link{
+    color: blueviolet;
+    font-size: xx-large;
+    text-decoration: none;
+}
+a:visited{
+    color: darkorange;
+    text-decoration: dotted;
+    font-size: 30px;
+}*/
+a:hover{
+    color: red;
+    text-decoration: dotted;
+}
+

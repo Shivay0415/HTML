@@ -1,0 +1,16 @@
+p{
+    margin: 30px;
+    border: 8px solid red;
+    padding: 10pt;
+    background-color:  coral;
+    font-size: medium;
+    text-align: justify;
+}
+body{
+    background-color: floralwhite;
+}
+h1{
+    border-bottom: 2px dotted darkgray;
+    color: aqua;
+    text-align: center;
+} 

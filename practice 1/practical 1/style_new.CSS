@@ -1,0 +1,15 @@
+p{
+    background-color:#b40f0f ;
+    color: hsl(150,60%,80%);
+    border: solid 2px rgb(25,30,90);
+}
+body{
+    background-color: beige;
+}
+h1{
+    font-size: medium;
+}
+h2{
+    background-color: rgb(25,30,90);
+    color: #9f9f9f;
+}

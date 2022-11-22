@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{padding: 0px;
+            margin: 0px;
+
+        }
+        div.container{
+            background-color: lightblue;
+display: grid;
+grid-template-columns: auto auto auto auto;
+padding: 5px;
+/*row-gap: 10px;
+column-gap: 5px;
+gap: 10px 5px;shorthand row and then col*/
+
+
+        }
+        div.container> div{
+            background-color: palevioletred;
+            font-size: 30px;
+            font-weight: bolder;
+            text-align: center;
+            padding: 20px;
+            border: 2px solid black;
+        }
+       div.container .item1{
+        grid-area:item1;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="item1">1</div>
+<div class="item">2</div>
+<div class="item">3</div>
+<div class="item">4</div>
+<div class="item">5</div>
+<div class="item">6</div>
+
+
+    </div>
+</body>
+</html>
